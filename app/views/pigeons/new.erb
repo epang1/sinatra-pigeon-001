@@ -2,7 +2,14 @@
 
 <h1>New Pigeon</h1>
 
-<!-- form goes here -->
+<form action='/pigeons/new' method="POST">
+<input type="text" name="pigeon[name][]" id="name">
+<input type="text" name="pigeon[color][]" id="color">
+<input type="text" name="pigeon[lives][]" id="lives">
+<input type="submit" value="Save">
+</form>
+
+
 
 <a class="button" href="/pigeons">Cancel</a>
 
